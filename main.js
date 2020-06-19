@@ -16,24 +16,7 @@ function initMap(){
 
 
 
-//   //Settng Marker
 
-//   let mark = new google.maps.Marker({
-//       position:{lat: 28.4595, lng:77.0266},
-//       map:map,
-//       icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-//   })
-
-   
-
-//   let infoWindow = new google.maps.InfoWindow({
-//       Content:'<h1>Gurgaon</h1>'
-//   })
-
-//   mark.addListener('click', Devent)
-//   function Devent(){
-//    infoWindow.open(map, mark);   
-//   }
 
 
 const Markers = [
@@ -57,19 +40,7 @@ const Markers = [
 Markers.forEach(mar => addMarker(mar));
 
 
-// addMarker({
-//     coords:{lat: 28.4595, lng:77.0266},
-//     iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-//     content:'<h1>Gurgaon</h1>'
-// })
-// addMarker({
-//     coords:{lat: 28.6692, lng:77.4538},
-//     content:'<h1>Ghaziabad</h1>'
-// })
-// addMarker({
-//     coords:{lat: 28.5355, lng:77.3910},
-//     content:'<h1>Noida</h1>'
-// })
+
 
 
     function addMarker(props){
